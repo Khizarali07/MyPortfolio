@@ -4,20 +4,44 @@ import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 
 const skillsIcons = [
   {
-    img: "https://skillicons.dev/icons?i=html,css",
+    img: "https://skillicons.dev/icons?i=html",
     id: 1,
   },
   {
-    img: "https://skillicons.dev/icons?i=js,react",
+    img: "https://skillicons.dev/icons?i=css",
     id: 2,
   },
   {
-    img: "https://skillicons.dev/icons?i=expressjs,nodejs",
+    img: "https://skillicons.dev/icons?i=js",
     id: 3,
   },
   {
-    img: "https://skillicons.dev/icons?i=mongodb,mysql",
+    img: "https://skillicons.dev/icons?i=react",
     id: 4,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=nodejs",
+    id: 5,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=expressjs",
+    id: 6,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=mongodb",
+    id: 7,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=mysql",
+    id: 8,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=cpp",
+    id: 9,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=python",
+    id: 10,
   },
 ];
 
@@ -32,7 +56,7 @@ function Main() {
                 <h1>M E R N Stack Developer</h1>
                 <img src={Waving} alt="waving_hand" />
                 <p>
-                  Hi, I'm H. M. Khizar Ali. A passionate MERN Stack Developer
+                  Hi, I'm H. M. Khizar Ali. A passionate MERN Stack Web Developer
                   based in Lahore Pakistan. 📍
                 </p>
                 <span>
