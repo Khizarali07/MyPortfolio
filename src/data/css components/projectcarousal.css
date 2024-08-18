@@ -1,0 +1,19 @@
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: black;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+    width: 4vw;
+}
+@media (max-width:750px){
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 6vw;
+    } 
+}
+
+.color_ch {
+    background-color: black !important;
+}
