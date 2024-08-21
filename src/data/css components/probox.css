@@ -69,7 +69,7 @@
     }
     
     .project-box__image-container {
-        height: 40vh;
+        height: 37vh;
         display: flex;
         justify-content: center;
     }
@@ -81,7 +81,7 @@
     }
     
     .project-box__content {
-        height: 60vh;
+        height: 42vh;
         margin-right: 6vw;
         margin-left: 6vw;
     }
@@ -105,13 +105,12 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 3vw;
     }
     
     .project-box__link {
         width: 14vw;
         text-align: center;
-        margin: 1.5rem 2rem 0rem 0rem;
+        margin: 0rem 2rem 0rem 0rem;
         text-decoration: none;
         color: #000;
         background-color: skyblue;
