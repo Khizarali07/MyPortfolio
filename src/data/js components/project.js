@@ -5,6 +5,7 @@ import project3 from "../media/project3.png";
 import project4 from "../media/project4.png";
 import project5 from "../media/project5.png";
 import project6 from "../media/project6.png";
+import project7 from "../media/project7.png";
 import "../css components/projectcarousal.css";
 
 function Projects() {
@@ -23,6 +24,7 @@ function Projects() {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="color_ch" aria-label="Slide 4"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="color_ch" aria-label="Slide 5"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="color_ch" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="color_ch" aria-label="Slide 7"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -79,16 +81,26 @@ function Projects() {
                 demo="https://khizarali07.github.io/Text-Tools"
               />
     </div>
+
+    <div class="carousel-item">
+    <ProBox
+                title="Guess The Word Game"
+                img={project6}
+                description="A React.js Guess the Word Game is a web application where players try to guess a hidden word within a limited number of attempts. The game typically involves a series of blanks representing each letter in the word. As players input letters, the game reveals correct letters in their proper positions."
+                code="https://github.com/Khizarali07/Guess-The-Word"
+                demo="https://khizarali07.github.io/Guess-The-Word"
+              />
+    </div>
+
     <div class="carousel-item">
     <ProBox
                 title="Todos"
-                img={project6}
+                img={project7}
                 description="This React-based application provides a suite of text manipulation tools to enhance user productivity. By leveraging the power of React, the Text Utils app offers a dynamic and interactive interface for users to process text efficientlyA MERN stack TODO web application is a task management tool built using the MongoDB database, Express.js server, React.js frontend, and Node.js runtime environment. It provides a user-friendly interface for creating, Marking and deleting tasks."
                 code="https://github.com/Khizarali07/Todos"
-                demo={window.location.origin}
+                demo={window.location.href}
               />
     </div>
-    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
