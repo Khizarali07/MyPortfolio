@@ -96,7 +96,7 @@ function Projects() {
     <ProBox
                 title="Todos"
                 img={project7}
-                description="This React-based application provides a suite of text manipulation tools to enhance user productivity. By leveraging the power of React, the Text Utils app offers a dynamic and interactive interface for users to process text efficientlyA MERN stack TODO web application is a task management tool built using the MongoDB database, Express.js server, React.js frontend, and Node.js runtime environment. It provides a user-friendly interface for creating, Marking and deleting tasks."
+                description="A MERN stack TODO web application is a task management tool built using the MongoDB database, Express.js server, React.js frontend, and Node.js runtime environment. It provides a user-friendly interface for creating, Marking and deleting tasks."
                 code="https://github.com/Khizarali07/Todos"
                 demo={window.location.href}
               />
